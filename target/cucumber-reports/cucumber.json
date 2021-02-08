@@ -1,0 +1,1178 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-02-08T18:09:06.288Z",
+        "line": 4,
+        "name": "Test Arshi Nagar scenario",
+        "description": "",
+        "id": "test-arshi-nagar-feature;test-arshi-nagar-scenario",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 6760150300,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I open buyrentbd website2",
+            "match": {
+              "arguments": [
+                {
+                  "val": "2",
+                  "offset": 24
+                }
+              ],
+              "location": "stepdefination.Arshi_Nagar.i_open_buyrentbd_website(int)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 920870800,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I click on Arshi Nangar flat",
+            "match": {
+              "location": "stepdefination.Arshi_Nagar.i_click_on_Arshi_Nangar_flat()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 272292200,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I click on next butto2",
+            "match": {
+              "arguments": [
+                {
+                  "val": "2",
+                  "offset": 21
+                }
+              ],
+              "location": "stepdefination.Arshi_Nagar.i_click_on_next_butto(int)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 160560600,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "verift the text on2",
+            "match": {
+              "arguments": [
+                {
+                  "val": "2",
+                  "offset": 18
+                }
+              ],
+              "location": "stepdefination.Arshi_Nagar.verift_the_text_on(int)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 759139700,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I close it2",
+            "match": {
+              "arguments": [
+                {
+                  "val": "2",
+                  "offset": 10
+                }
+              ],
+              "location": "stepdefination.Arshi_Nagar.i_close_it(int)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke"
+          }
+        ]
+      }
+    ],
+    "name": "Test Arshi Nagar feature",
+    "description": "",
+    "id": "test-arshi-nagar-feature",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Features/Arsi_Nagar.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-02-08T18:09:15.277Z",
+        "line": 4,
+        "name": "Test Lily apartment scenario",
+        "description": "",
+        "id": "test-lily-feature;test-lily-apartment-scenario",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3940459000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I open buyrentbd website for Lily",
+            "match": {
+              "location": "stepdefination.Lily.i_open_buyrentbd_website_for_Lily()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 141622200,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I click on number two links",
+            "match": {
+              "location": "stepdefination.Lily.i_click_on_number_two_links()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1285136100,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I click on Lily flat",
+            "match": {
+              "location": "stepdefination.Lily.i_click_on_Lily_flat()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 176528200,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I click on next buttons for Lily",
+            "match": {
+              "location": "stepdefination.Lily.i_click_on_next_buttons_for_Lily()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 23935000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "verift the text on the page Lily",
+            "match": {
+              "location": "stepdefination.Lily.verift_the_text_on_the_page_Lily()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 761729500,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I close browser for Lily",
+            "match": {
+              "location": "stepdefination.Lily.i_close_browser_for_Lily()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke"
+          }
+        ]
+      }
+    ],
+    "name": "Test Lily feature",
+    "description": "",
+    "id": "test-lily-feature",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Features/BDDL_Lily.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-02-08T18:09:21.669Z",
+        "line": 4,
+        "name": "Test BDDL Sufia scenario",
+        "description": "",
+        "id": "test-bddl-sufia-feature;test-bddl-sufia-scenario",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 6524191500,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I open buyrentbd website for Sufia",
+            "match": {
+              "location": "stepdefination.BDDL_Sufia.i_open_buyrentbd_website_for_Sufia()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 168574500,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I click on number two",
+            "match": {
+              "location": "stepdefination.BDDL_Sufia.i_click_on_number_two()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1712423100,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I click on Sufia flat",
+            "match": {
+              "location": "stepdefination.BDDL_Sufia.i_click_on_Sufia_flat()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 187499400,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I click on next buttons for Sufia",
+            "match": {
+              "location": "stepdefination.BDDL_Sufia.i_click_on_next_buttons_for_Sufia()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 41885900,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "verift the text on the page Sufia",
+            "match": {
+              "location": "stepdefination.BDDL_Sufia.verift_the_text_on_the_page_Sufia()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 771208400,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I close browser for Sufia",
+            "match": {
+              "location": "stepdefination.BDDL_Sufia.i_close_browser_for_Sufia()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke"
+          }
+        ]
+      }
+    ],
+    "name": "Test BDDL Sufia feature",
+    "description": "",
+    "id": "test-bddl-sufia-feature",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Features/BDDL_Sufia.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-02-08T18:09:31.142Z",
+        "line": 4,
+        "name": "Test Banani Lake scenario",
+        "description": "",
+        "id": "test-banani-lake-feature;test-banani-lake-scenario",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5970541600,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I open buyrentbd websites1",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1",
+                  "offset": 25
+                }
+              ],
+              "location": "stepdefination.Banani_Lake.i_open_buyrentbd_websites(int)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1098900100,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I click on Banani Lake flat",
+            "match": {
+              "location": "stepdefination.Banani_Lake.i_click_on_Banani_Lake_flat()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 262298800,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I click on next button1",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1",
+                  "offset": 22
+                }
+              ],
+              "location": "stepdefination.Banani_Lake.i_click_on_next_button(int)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 64826400,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "verift the text on it1",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1",
+                  "offset": 21
+                }
+              ],
+              "location": "stepdefination.Banani_Lake.verift_the_text_on_it(int)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 787602600,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I close1",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1",
+                  "offset": 7
+                }
+              ],
+              "location": "stepdefination.Banani_Lake.i_close(int)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke"
+          }
+        ]
+      }
+    ],
+    "name": "Test Banani Lake feature",
+    "description": "",
+    "id": "test-banani-lake-feature",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Features/BananiLake.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-02-08T18:09:39.379Z",
+        "line": 4,
+        "name": "Test Banani flats scenariof",
+        "description": "",
+        "id": "test-banani-flats-feature;test-banani-flats-scenariof",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3967554600,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I open buyrentbd websitef",
+            "match": {
+              "location": "stepdefination.Banani_flats.i_open_buyrentbd_websitef()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1077283900,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I click on Banani flatf",
+            "match": {
+              "location": "stepdefination.Banani_flats.i_click_on_Banani_flatf()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 149600700,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I click on nextf",
+            "match": {
+              "location": "stepdefination.Banani_flats.i_click_on_nextf()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 27930600,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "verift the textf",
+            "match": {
+              "location": "stepdefination.Banani_flats.verift_the_textf()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 739734600,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I close websitef",
+            "match": {
+              "location": "stepdefination.Banani_flats.i_close_websitef()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke"
+          }
+        ]
+      }
+    ],
+    "name": "Test Banani flats feature",
+    "description": "",
+    "id": "test-banani-flats-feature",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Features/Bananiflat.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-02-08T18:09:45.415Z",
+        "line": 5,
+        "name": "Test Dreamway apartment scenario",
+        "description": "",
+        "id": "test-dreamway-feature;test-dreamway-apartment-scenario",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4571999700,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I open buyrentbd website for Dreamway",
+            "match": {
+              "location": "stepdefination.Dreamway.i_open_buyrentbd_website_for_Dreamway()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 112698700,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I click on number two links for Dreamway",
+            "match": {
+              "location": "stepdefination.Dreamway.i_click_on_number_two_links_for_Dreamway()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1273358600,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I click on Dreamway flat",
+            "match": {
+              "location": "stepdefination.Dreamway.i_click_on_Dreamway_flat()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 181513200,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I click on next buttons for Dreamway",
+            "match": {
+              "location": "stepdefination.Dreamway.i_click_on_next_buttons_for_Dreamway()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 44880600,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "verift the text on the page Dreamway",
+            "match": {
+              "location": "stepdefination.Dreamway.verift_the_text_on_the_page_Dreamway()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 774710800,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I close browser for Dreamway",
+            "match": {
+              "location": "stepdefination.Dreamway.i_close_browser_for_Dreamway()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke"
+          }
+        ]
+      }
+    ],
+    "name": "Test Dreamway feature",
+    "description": "",
+    "id": "test-dreamway-feature",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Features/Dreamway.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-02-08T18:09:52.413Z",
+        "line": 5,
+        "name": "Test BDDL Gold Place scenario",
+        "description": "",
+        "id": "test-bddl-gold-place-feature;test-bddl-gold-place-scenario",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3989474900,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I open buyrentbd website for test",
+            "match": {
+              "location": "stepdefination.Gold_Place.i_open_buyrentbd_website_for_test()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1778006900,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I click on BDDL Gold flat",
+            "match": {
+              "location": "stepdefination.Gold_Place.i_click_on_BDDL_Gold_flat()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 166554100,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I click on the next",
+            "match": {
+              "location": "stepdefination.Gold_Place.i_click_on_the_next()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 33909400,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "verift text",
+            "match": {
+              "location": "stepdefination.Gold_Place.verift_text()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 716985700,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I close it",
+            "match": {
+              "location": "stepdefination.Gold_Place.i_close_it()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke"
+          }
+        ]
+      }
+    ],
+    "name": "Test BDDL Gold Place feature",
+    "description": "",
+    "id": "test-bddl-gold-place-feature",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Features/Goldplace.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-02-08T18:09:59.144Z",
+        "line": 4,
+        "name": "Title of your scenario",
+        "description": "",
+        "id": "title-jonota-housing-feature;title-of-your-scenario",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3979240100,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I open buyrentbd websites",
+            "match": {
+              "location": "stepdefination.Jonota_housing.i_open_buyrentbd_websites()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1219359900,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I click on jonota housing flat",
+            "match": {
+              "location": "stepdefination.Jonota_housing.i_click_on_jonota_housing_flat()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 124663300,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I click on next button",
+            "match": {
+              "location": "stepdefination.Jonota_housing.i_click_on_next_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 27924900,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "verift the text on it",
+            "match": {
+              "location": "stepdefination.Jonota_housing.verift_the_text_on_it()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 724025700,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I close",
+            "match": {
+              "location": "stepdefination.Jonota_housing.i_close()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke"
+          }
+        ]
+      }
+    ],
+    "name": "Title Jonota housing feature",
+    "description": "",
+    "id": "title-jonota-housing-feature",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Features/Jonotahousing.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-02-08T18:10:05.263Z",
+        "line": 5,
+        "name": "Test Rossela apartment scenario1",
+        "description": "",
+        "id": "test-rossela-feature;test-rossela-apartment-scenario1",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4314670500,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I open buyrentbd website for Rosselas",
+            "match": {
+              "location": "stepdefination.Rossela.i_open_buyrentbd_website_for_Rosselas()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 114690300,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I click on number two linkse",
+            "match": {
+              "location": "stepdefination.Rossela.i_click_on_number_two_linkse()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1241903800,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I click on Rossela flate",
+            "match": {
+              "location": "stepdefination.Rossela.i_click_on_Rossela_flate()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 166554500,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I click on next buttons for Rosselae",
+            "match": {
+              "location": "stepdefination.Rossela.i_click_on_next_buttons_for_Rosselae()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 27926400,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "verift the text on the page Rosselae",
+            "match": {
+              "location": "stepdefination.Rossela.verift_the_text_on_the_page_Rosselae()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 721375800,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I close browser for Rosselae",
+            "match": {
+              "location": "stepdefination.Rossela.i_close_browser_for_Rosselae()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke"
+          }
+        ]
+      }
+    ],
+    "name": "Test Rossela feature",
+    "description": "",
+    "id": "test-rossela-feature",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Features/Rossella.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-02-08T18:10:11.894Z",
+        "line": 5,
+        "name": "Test Swan Dilara scenario",
+        "description": "",
+        "id": "test-swan-dilara-feature;test-swan-dilara-scenario",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4002453300,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I open buyrentbd website for Swan Dilara",
+            "match": {
+              "location": "stepdefination.Swan_Dilara.i_open_buyrentbd_website_for_Swan_Dilara()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 143616000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I click on two links for Swan Dilara",
+            "match": {
+              "location": "stepdefination.Swan_Dilara.i_click_on_two_links_for_Swan_Dilara()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1275032700,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I click on Swan Dilara flat",
+            "match": {
+              "location": "stepdefination.Swan_Dilara.i_click_on_Swan_Dilara_flat()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 163562900,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I click on next buttons for Swan Dilara",
+            "match": {
+              "location": "stepdefination.Swan_Dilara.i_click_on_next_buttons_for_Swan_Dilara()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 25931400,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "verift the text on the page Swan Dilara",
+            "match": {
+              "location": "stepdefination.Swan_Dilara.verift_the_text_on_the_page_Swan_Dilara()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 735469900,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I close browser for Swan Dilara",
+            "match": {
+              "location": "stepdefination.Swan_Dilara.i_close_browser_for_Swan_Dilara()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke"
+          }
+        ]
+      }
+    ],
+    "name": "Test Swan Dilara feature",
+    "description": "",
+    "id": "test-swan-dilara-feature",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Features/Swan_Dilara.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-02-08T18:10:18.289Z",
+        "line": 5,
+        "name": "Test Swan Rajia scenario",
+        "description": "",
+        "id": "test-swan-rajia-feature;test-swan-rajia-scenario",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4289317400,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I open buyrentbd website for Swan Rajia",
+            "match": {
+              "location": "stepdefination.Swan_Rajia.i_open_buyrentbd_website_for_Swan_Rajia()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 142619900,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I click on number two link for Swan Rajia",
+            "match": {
+              "location": "stepdefination.Swan_Rajia.i_click_on_number_two_link_for_Swan_Rajia()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1195273700,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I click on Swan Rajia flat",
+            "match": {
+              "location": "stepdefination.Swan_Rajia.i_click_on_Swan_Rajia_flat()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 157578700,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I click on next buttons for Swan Rajia",
+            "match": {
+              "location": "stepdefination.Swan_Rajia.i_click_on_next_buttons_for_Swan_Rajia()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 24930800,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "verift the text on the page Swan Rajia",
+            "match": {
+              "location": "stepdefination.Swan_Rajia.verift_the_text_on_the_page_Swan_Rajia()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 746034600,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I close browser for Swan Rajia",
+            "match": {
+              "location": "stepdefination.Swan_Rajia.i_close_browser_for_Swan_Rajia()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke"
+          }
+        ]
+      }
+    ],
+    "name": "Test Swan Rajia feature",
+    "description": "",
+    "id": "test-swan-rajia-feature",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Features/Swan_Rajia.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-02-08T18:10:24.878Z",
+        "line": 4,
+        "name": "Test Let Us Call you scenario",
+        "description": "",
+        "id": "test-call-you-feature;test-let-us-call-you-scenario",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4175461300,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I open buyrentbd website",
+            "match": {
+              "location": "stepdefination.call_you.i_open_buyrentbd_website()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 180517600,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I enter name on let us call you form",
+            "match": {
+              "location": "stepdefination.call_you.i_enter_name_on_let_us_call_you_form()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 223408800,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "email",
+            "match": {
+              "location": "stepdefination.call_you.email()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 108703600,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "phone number",
+            "match": {
+              "location": "stepdefination.call_you.phone_number()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 157578000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I enter message",
+            "match": {
+              "location": "stepdefination.call_you.i_enter_message()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 712782600,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "close the browser",
+            "match": {
+              "location": "stepdefination.call_you.close_the_browser()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke"
+          }
+        ]
+      }
+    ],
+    "name": "Test call you feature",
+    "description": "",
+    "id": "test-call-you-feature",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Features/call_you.feature",
+    "tags": []
+  }
+]

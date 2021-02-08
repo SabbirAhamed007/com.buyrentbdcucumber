@@ -1,0 +1,685 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+<script src="js/jquery.min.js"></script>
+<script src="js/jquery.tablesorter.min.js"></script>
+<script src="js/Chart.min.js"></script>
+<script src="js/moment.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+
+<link rel="stylesheet" href="css/bootstrap.min.css" type="text/css"/>
+<link rel="stylesheet" href="css/cucumber.css" type="text/css"/>
+<link rel="stylesheet" href="css/font-awesome.min.css"/>
+<link rel="shortcut icon" href="images/favicon.png"/>
+
+<script>
+$(document).ready(function() {
+    // this will tell tablesorter to try looking for the data-value attribute
+    // if present, it'll sort by that instead
+    // otherwise, it'll sort by the text content of the table cell
+    $("#tablesorter").tablesorter({
+        textAttribute: 'data-value',
+        // ignores the first row of the header, the 'scenario', 'steps', since
+        // sorting those doesn't make sense
+        selectorHeaders: '> thead tr:not(.dont-sort) th',
+        // use a stable sort
+        sortStable: true
+    });
+});
+</script>
+
+
+
+
+
+
+
+
+
+
+
+<title>Cucumber Reports (no 1) - Steps Overview</title>
+
+</head>
+<body>
+
+<nav class="navbar navbar-default navbar-fixed-top" id="navigation">
+  <div class="container-fluid">
+    <div class="collapse navbar-collapse">
+      <p class="navbar-text navbar-left">Cucumber Report</p>
+      <ul class="nav navbar-nav navbar-right">
+        <li role="presentation" ><a href="overview-features.html">Features</a></li>
+        <li role="presentation" ><a href="overview-tags.html">Tags</a></li>
+        <li role="presentation"     class="active" ><a href="overview-steps.html">Steps</a></li>
+        <li role="presentation" ><a href="overview-failures.html">Failures</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+<div class="container-fluid">
+  <div class="col-md-5 col-md-offset-1">
+
+<table class="table table-bordered" id="build-info">
+  <thead>
+    <tr>
+      <th>Project</th>
+        <th>Number</th>
+      <th>Date</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr class="info">
+      <td>com.buyrentbdcucumber</td>
+        <td>1</td>
+      <td>08 Feb 2021, 13:10</td>
+    </tr>
+  </tbody>
+</table>
+
+  </div>
+  <div class="col-md-3 col-md-offset-2">
+  </div>
+</div>
+
+
+<div id="report-lead" class="container-fluid">
+  <div class="col-md-10 col-md-offset-1">
+    <h2>Steps Statistics</h2>
+      <p>The following graph shows step statistics for this build. Below list is based on results.
+ step does not provide information about result then is not listed below.
+ Additionally @Before and @After are not counted because they are part of the scenarios, not steps.</p>
+  </div>
+</div>
+
+<div class="container-fluid" id="report">
+  <div class="row">
+    <div class="col-md-10 col-md-offset-1">
+      <table id="tablesorter" class="stats-table table-hover">
+
+        <thead>
+          <tr class="header">
+            <th>Implementation</th>
+            <th>Occurrences</th>
+            <th>Average duration</th>
+            <th>Max duration</th>
+            <th>Total durations</th>
+            <th>Ratio</th>
+          </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+              <td class="location">stepdefination.Arshi_Nagar.i_click_on_Arshi_Nangar_flat()</td>
+              <td>1</td>
+              <td class="duration" data-value="920870800">0.920</td>
+              <td class="duration" data-value="920870800">0.920</td>
+              <td class="duration" data-value="920870800">0.920</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">stepdefination.Arshi_Nagar.i_click_on_next_butto(int)</td>
+              <td>1</td>
+              <td class="duration" data-value="272292200">0.272</td>
+              <td class="duration" data-value="272292200">0.272</td>
+              <td class="duration" data-value="272292200">0.272</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">stepdefination.Arshi_Nagar.i_close_it(int)</td>
+              <td>1</td>
+              <td class="duration" data-value="759139700">0.759</td>
+              <td class="duration" data-value="759139700">0.759</td>
+              <td class="duration" data-value="759139700">0.759</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">stepdefination.Arshi_Nagar.i_open_buyrentbd_website(int)</td>
+              <td>1</td>
+              <td class="duration" data-value="6760150300">6.760</td>
+              <td class="duration" data-value="6760150300">6.760</td>
+              <td class="duration" data-value="6760150300">6.760</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">stepdefination.Arshi_Nagar.verift_the_text_on(int)</td>
+              <td>1</td>
+              <td class="duration" data-value="160560600">0.160</td>
+              <td class="duration" data-value="160560600">0.160</td>
+              <td class="duration" data-value="160560600">0.160</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">stepdefination.BDDL_Sufia.i_click_on_Sufia_flat()</td>
+              <td>1</td>
+              <td class="duration" data-value="1712423100">1.712</td>
+              <td class="duration" data-value="1712423100">1.712</td>
+              <td class="duration" data-value="1712423100">1.712</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">stepdefination.BDDL_Sufia.i_click_on_next_buttons_for_Sufia()</td>
+              <td>1</td>
+              <td class="duration" data-value="187499400">0.187</td>
+              <td class="duration" data-value="187499400">0.187</td>
+              <td class="duration" data-value="187499400">0.187</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">stepdefination.BDDL_Sufia.i_click_on_number_two()</td>
+              <td>1</td>
+              <td class="duration" data-value="168574500">0.168</td>
+              <td class="duration" data-value="168574500">0.168</td>
+              <td class="duration" data-value="168574500">0.168</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">stepdefination.BDDL_Sufia.i_close_browser_for_Sufia()</td>
+              <td>1</td>
+              <td class="duration" data-value="771208400">0.771</td>
+              <td class="duration" data-value="771208400">0.771</td>
+              <td class="duration" data-value="771208400">0.771</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">stepdefination.BDDL_Sufia.i_open_buyrentbd_website_for_Sufia()</td>
+              <td>1</td>
+              <td class="duration" data-value="6524191500">6.524</td>
+              <td class="duration" data-value="6524191500">6.524</td>
+              <td class="duration" data-value="6524191500">6.524</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">stepdefination.BDDL_Sufia.verift_the_text_on_the_page_Sufia()</td>
+              <td>1</td>
+              <td class="duration" data-value="41885900">0.041</td>
+              <td class="duration" data-value="41885900">0.041</td>
+              <td class="duration" data-value="41885900">0.041</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">stepdefination.Banani_Lake.i_click_on_Banani_Lake_flat()</td>
+              <td>1</td>
+              <td class="duration" data-value="1098900100">1.098</td>
+              <td class="duration" data-value="1098900100">1.098</td>
+              <td class="duration" data-value="1098900100">1.098</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">stepdefination.Banani_Lake.i_click_on_next_button(int)</td>
+              <td>1</td>
+              <td class="duration" data-value="262298800">0.262</td>
+              <td class="duration" data-value="262298800">0.262</td>
+              <td class="duration" data-value="262298800">0.262</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">stepdefination.Banani_Lake.i_close(int)</td>
+              <td>1</td>
+              <td class="duration" data-value="787602600">0.787</td>
+              <td class="duration" data-value="787602600">0.787</td>
+              <td class="duration" data-value="787602600">0.787</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">stepdefination.Banani_Lake.i_open_buyrentbd_websites(int)</td>
+              <td>1</td>
+              <td class="duration" data-value="5970541600">5.970</td>
+              <td class="duration" data-value="5970541600">5.970</td>
+              <td class="duration" data-value="5970541600">5.970</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">stepdefination.Banani_Lake.verift_the_text_on_it(int)</td>
+              <td>1</td>
+              <td class="duration" data-value="64826400">0.064</td>
+              <td class="duration" data-value="64826400">0.064</td>
+              <td class="duration" data-value="64826400">0.064</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">stepdefination.Banani_flats.i_click_on_Banani_flatf()</td>
+              <td>1</td>
+              <td class="duration" data-value="1077283900">1.077</td>
+              <td class="duration" data-value="1077283900">1.077</td>
+              <td class="duration" data-value="1077283900">1.077</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">stepdefination.Banani_flats.i_click_on_nextf()</td>
+              <td>1</td>
+              <td class="duration" data-value="149600700">0.149</td>
+              <td class="duration" data-value="149600700">0.149</td>
+              <td class="duration" data-value="149600700">0.149</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">stepdefination.Banani_flats.i_close_websitef()</td>
+              <td>1</td>
+              <td class="duration" data-value="739734600">0.739</td>
+              <td class="duration" data-value="739734600">0.739</td>
+              <td class="duration" data-value="739734600">0.739</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">stepdefination.Banani_flats.i_open_buyrentbd_websitef()</td>
+              <td>1</td>
+              <td class="duration" data-value="3967554600">3.967</td>
+              <td class="duration" data-value="3967554600">3.967</td>
+              <td class="duration" data-value="3967554600">3.967</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">stepdefination.Banani_flats.verift_the_textf()</td>
+              <td>1</td>
+              <td class="duration" data-value="27930600">0.027</td>
+              <td class="duration" data-value="27930600">0.027</td>
+              <td class="duration" data-value="27930600">0.027</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">stepdefination.Dreamway.i_click_on_Dreamway_flat()</td>
+              <td>1</td>
+              <td class="duration" data-value="1273358600">1.273</td>
+              <td class="duration" data-value="1273358600">1.273</td>
+              <td class="duration" data-value="1273358600">1.273</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">stepdefination.Dreamway.i_click_on_next_buttons_for_Dreamway()</td>
+              <td>1</td>
+              <td class="duration" data-value="181513200">0.181</td>
+              <td class="duration" data-value="181513200">0.181</td>
+              <td class="duration" data-value="181513200">0.181</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">stepdefination.Dreamway.i_click_on_number_two_links_for_Dreamway()</td>
+              <td>1</td>
+              <td class="duration" data-value="112698700">0.112</td>
+              <td class="duration" data-value="112698700">0.112</td>
+              <td class="duration" data-value="112698700">0.112</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">stepdefination.Dreamway.i_close_browser_for_Dreamway()</td>
+              <td>1</td>
+              <td class="duration" data-value="774710800">0.774</td>
+              <td class="duration" data-value="774710800">0.774</td>
+              <td class="duration" data-value="774710800">0.774</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">stepdefination.Dreamway.i_open_buyrentbd_website_for_Dreamway()</td>
+              <td>1</td>
+              <td class="duration" data-value="4571999700">4.571</td>
+              <td class="duration" data-value="4571999700">4.571</td>
+              <td class="duration" data-value="4571999700">4.571</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">stepdefination.Dreamway.verift_the_text_on_the_page_Dreamway()</td>
+              <td>1</td>
+              <td class="duration" data-value="44880600">0.044</td>
+              <td class="duration" data-value="44880600">0.044</td>
+              <td class="duration" data-value="44880600">0.044</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">stepdefination.Gold_Place.i_click_on_BDDL_Gold_flat()</td>
+              <td>1</td>
+              <td class="duration" data-value="1778006900">1.778</td>
+              <td class="duration" data-value="1778006900">1.778</td>
+              <td class="duration" data-value="1778006900">1.778</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">stepdefination.Gold_Place.i_click_on_the_next()</td>
+              <td>1</td>
+              <td class="duration" data-value="166554100">0.166</td>
+              <td class="duration" data-value="166554100">0.166</td>
+              <td class="duration" data-value="166554100">0.166</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">stepdefination.Gold_Place.i_close_it()</td>
+              <td>1</td>
+              <td class="duration" data-value="716985700">0.716</td>
+              <td class="duration" data-value="716985700">0.716</td>
+              <td class="duration" data-value="716985700">0.716</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">stepdefination.Gold_Place.i_open_buyrentbd_website_for_test()</td>
+              <td>1</td>
+              <td class="duration" data-value="3989474900">3.989</td>
+              <td class="duration" data-value="3989474900">3.989</td>
+              <td class="duration" data-value="3989474900">3.989</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">stepdefination.Gold_Place.verift_text()</td>
+              <td>1</td>
+              <td class="duration" data-value="33909400">0.033</td>
+              <td class="duration" data-value="33909400">0.033</td>
+              <td class="duration" data-value="33909400">0.033</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">stepdefination.Jonota_housing.i_click_on_jonota_housing_flat()</td>
+              <td>1</td>
+              <td class="duration" data-value="1219359900">1.219</td>
+              <td class="duration" data-value="1219359900">1.219</td>
+              <td class="duration" data-value="1219359900">1.219</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">stepdefination.Jonota_housing.i_click_on_next_button()</td>
+              <td>1</td>
+              <td class="duration" data-value="124663300">0.124</td>
+              <td class="duration" data-value="124663300">0.124</td>
+              <td class="duration" data-value="124663300">0.124</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">stepdefination.Jonota_housing.i_close()</td>
+              <td>1</td>
+              <td class="duration" data-value="724025700">0.724</td>
+              <td class="duration" data-value="724025700">0.724</td>
+              <td class="duration" data-value="724025700">0.724</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">stepdefination.Jonota_housing.i_open_buyrentbd_websites()</td>
+              <td>1</td>
+              <td class="duration" data-value="3979240100">3.979</td>
+              <td class="duration" data-value="3979240100">3.979</td>
+              <td class="duration" data-value="3979240100">3.979</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">stepdefination.Jonota_housing.verift_the_text_on_it()</td>
+              <td>1</td>
+              <td class="duration" data-value="27924900">0.027</td>
+              <td class="duration" data-value="27924900">0.027</td>
+              <td class="duration" data-value="27924900">0.027</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">stepdefination.Lily.i_click_on_Lily_flat()</td>
+              <td>1</td>
+              <td class="duration" data-value="1285136100">1.285</td>
+              <td class="duration" data-value="1285136100">1.285</td>
+              <td class="duration" data-value="1285136100">1.285</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">stepdefination.Lily.i_click_on_next_buttons_for_Lily()</td>
+              <td>1</td>
+              <td class="duration" data-value="176528200">0.176</td>
+              <td class="duration" data-value="176528200">0.176</td>
+              <td class="duration" data-value="176528200">0.176</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">stepdefination.Lily.i_click_on_number_two_links()</td>
+              <td>1</td>
+              <td class="duration" data-value="141622200">0.141</td>
+              <td class="duration" data-value="141622200">0.141</td>
+              <td class="duration" data-value="141622200">0.141</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">stepdefination.Lily.i_close_browser_for_Lily()</td>
+              <td>1</td>
+              <td class="duration" data-value="761729500">0.761</td>
+              <td class="duration" data-value="761729500">0.761</td>
+              <td class="duration" data-value="761729500">0.761</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">stepdefination.Lily.i_open_buyrentbd_website_for_Lily()</td>
+              <td>1</td>
+              <td class="duration" data-value="3940459000">3.940</td>
+              <td class="duration" data-value="3940459000">3.940</td>
+              <td class="duration" data-value="3940459000">3.940</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">stepdefination.Lily.verift_the_text_on_the_page_Lily()</td>
+              <td>1</td>
+              <td class="duration" data-value="23935000">0.023</td>
+              <td class="duration" data-value="23935000">0.023</td>
+              <td class="duration" data-value="23935000">0.023</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">stepdefination.Rossela.i_click_on_Rossela_flate()</td>
+              <td>1</td>
+              <td class="duration" data-value="1241903800">1.241</td>
+              <td class="duration" data-value="1241903800">1.241</td>
+              <td class="duration" data-value="1241903800">1.241</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">stepdefination.Rossela.i_click_on_next_buttons_for_Rosselae()</td>
+              <td>1</td>
+              <td class="duration" data-value="166554500">0.166</td>
+              <td class="duration" data-value="166554500">0.166</td>
+              <td class="duration" data-value="166554500">0.166</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">stepdefination.Rossela.i_click_on_number_two_linkse()</td>
+              <td>1</td>
+              <td class="duration" data-value="114690300">0.114</td>
+              <td class="duration" data-value="114690300">0.114</td>
+              <td class="duration" data-value="114690300">0.114</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">stepdefination.Rossela.i_close_browser_for_Rosselae()</td>
+              <td>1</td>
+              <td class="duration" data-value="721375800">0.721</td>
+              <td class="duration" data-value="721375800">0.721</td>
+              <td class="duration" data-value="721375800">0.721</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">stepdefination.Rossela.i_open_buyrentbd_website_for_Rosselas()</td>
+              <td>1</td>
+              <td class="duration" data-value="4314670500">4.314</td>
+              <td class="duration" data-value="4314670500">4.314</td>
+              <td class="duration" data-value="4314670500">4.314</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">stepdefination.Rossela.verift_the_text_on_the_page_Rosselae()</td>
+              <td>1</td>
+              <td class="duration" data-value="27926400">0.027</td>
+              <td class="duration" data-value="27926400">0.027</td>
+              <td class="duration" data-value="27926400">0.027</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">stepdefination.Swan_Dilara.i_click_on_Swan_Dilara_flat()</td>
+              <td>1</td>
+              <td class="duration" data-value="1275032700">1.275</td>
+              <td class="duration" data-value="1275032700">1.275</td>
+              <td class="duration" data-value="1275032700">1.275</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">stepdefination.Swan_Dilara.i_click_on_next_buttons_for_Swan_Dilara()</td>
+              <td>1</td>
+              <td class="duration" data-value="163562900">0.163</td>
+              <td class="duration" data-value="163562900">0.163</td>
+              <td class="duration" data-value="163562900">0.163</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">stepdefination.Swan_Dilara.i_click_on_two_links_for_Swan_Dilara()</td>
+              <td>1</td>
+              <td class="duration" data-value="143616000">0.143</td>
+              <td class="duration" data-value="143616000">0.143</td>
+              <td class="duration" data-value="143616000">0.143</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">stepdefination.Swan_Dilara.i_close_browser_for_Swan_Dilara()</td>
+              <td>1</td>
+              <td class="duration" data-value="735469900">0.735</td>
+              <td class="duration" data-value="735469900">0.735</td>
+              <td class="duration" data-value="735469900">0.735</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">stepdefination.Swan_Dilara.i_open_buyrentbd_website_for_Swan_Dilara()</td>
+              <td>1</td>
+              <td class="duration" data-value="4002453300">4.002</td>
+              <td class="duration" data-value="4002453300">4.002</td>
+              <td class="duration" data-value="4002453300">4.002</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">stepdefination.Swan_Dilara.verift_the_text_on_the_page_Swan_Dilara()</td>
+              <td>1</td>
+              <td class="duration" data-value="25931400">0.025</td>
+              <td class="duration" data-value="25931400">0.025</td>
+              <td class="duration" data-value="25931400">0.025</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">stepdefination.Swan_Rajia.i_click_on_Swan_Rajia_flat()</td>
+              <td>1</td>
+              <td class="duration" data-value="1195273700">1.195</td>
+              <td class="duration" data-value="1195273700">1.195</td>
+              <td class="duration" data-value="1195273700">1.195</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">stepdefination.Swan_Rajia.i_click_on_next_buttons_for_Swan_Rajia()</td>
+              <td>1</td>
+              <td class="duration" data-value="157578700">0.157</td>
+              <td class="duration" data-value="157578700">0.157</td>
+              <td class="duration" data-value="157578700">0.157</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">stepdefination.Swan_Rajia.i_click_on_number_two_link_for_Swan_Rajia()</td>
+              <td>1</td>
+              <td class="duration" data-value="142619900">0.142</td>
+              <td class="duration" data-value="142619900">0.142</td>
+              <td class="duration" data-value="142619900">0.142</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">stepdefination.Swan_Rajia.i_close_browser_for_Swan_Rajia()</td>
+              <td>1</td>
+              <td class="duration" data-value="746034600">0.746</td>
+              <td class="duration" data-value="746034600">0.746</td>
+              <td class="duration" data-value="746034600">0.746</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">stepdefination.Swan_Rajia.i_open_buyrentbd_website_for_Swan_Rajia()</td>
+              <td>1</td>
+              <td class="duration" data-value="4289317400">4.289</td>
+              <td class="duration" data-value="4289317400">4.289</td>
+              <td class="duration" data-value="4289317400">4.289</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">stepdefination.Swan_Rajia.verift_the_text_on_the_page_Swan_Rajia()</td>
+              <td>1</td>
+              <td class="duration" data-value="24930800">0.024</td>
+              <td class="duration" data-value="24930800">0.024</td>
+              <td class="duration" data-value="24930800">0.024</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">stepdefination.call_you.close_the_browser()</td>
+              <td>1</td>
+              <td class="duration" data-value="712782600">0.712</td>
+              <td class="duration" data-value="712782600">0.712</td>
+              <td class="duration" data-value="712782600">0.712</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">stepdefination.call_you.email()</td>
+              <td>1</td>
+              <td class="duration" data-value="223408800">0.223</td>
+              <td class="duration" data-value="223408800">0.223</td>
+              <td class="duration" data-value="223408800">0.223</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">stepdefination.call_you.i_enter_message()</td>
+              <td>1</td>
+              <td class="duration" data-value="157578000">0.157</td>
+              <td class="duration" data-value="157578000">0.157</td>
+              <td class="duration" data-value="157578000">0.157</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">stepdefination.call_you.i_enter_name_on_let_us_call_you_form()</td>
+              <td>1</td>
+              <td class="duration" data-value="180517600">0.180</td>
+              <td class="duration" data-value="180517600">0.180</td>
+              <td class="duration" data-value="180517600">0.180</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">stepdefination.call_you.i_open_buyrentbd_website()</td>
+              <td>1</td>
+              <td class="duration" data-value="4175461300">4.175</td>
+              <td class="duration" data-value="4175461300">4.175</td>
+              <td class="duration" data-value="4175461300">4.175</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">stepdefination.call_you.phone_number()</td>
+              <td>1</td>
+              <td class="duration" data-value="108703600">0.108</td>
+              <td class="duration" data-value="108703600">0.108</td>
+              <td class="duration" data-value="108703600">0.108</td>
+              <td class="passed">100.00%</td>
+            </tr>
+        </tbody>
+
+        <tfoot class="total">
+          <tr>
+            <td>67</td>
+            <td>67</td>
+            <td class="duration">1.246</td>
+            <td class="duration">6.760</td>
+            <td class="duration">1:23.521</td>
+            <td>Totals</td>
+          </tr>
+        </tfoot>
+
+      </table>
+    </div>
+  </div>
+</div>
+
+
+<nav class="navbar navbar-default" id="footer">
+  <div class="container-fluid">
+    <p class="navbar-text navbar-right">
+        <small>generate Cucumber HTML reports via:&nbsp;</small>
+        <a class="navbar-link" href="https://github.com/jenkinsci/cucumber-reports-plugin">Jenkins Plugin</a> |
+        <a class="navbar-link" href="https://github.com/damianszczepanik/cucumber-reporting">Standalone</a> |
+        <a class="navbar-link" href="https://github.com/damianszczepanik/cucumber-sandwich">Sandwich</a> |
+        <a class="navbar-link" href="https://github.com/damianszczepanik/maven-cucumber-reporting">Maven</a>
+        &nbsp;&nbsp;
+    </p>
+  </div>
+</nav>
+
+</body>
+</html>

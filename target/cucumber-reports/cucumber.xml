@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="12" time="84.482">
+    <testcase classname="Test Arshi Nagar feature" name="Test Arshi Nagar scenario" time="8.941">
+        <system-out><![CDATA[Given I open buyrentbd website2.............................................passed
+When I click on Arshi Nangar flat...........................................passed
+And I click on next butto2..................................................passed
+And verift the text on2.....................................................passed
+Then I close it2............................................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Test Lily feature" name="Test Lily apartment scenario" time="6.337">
+        <system-out><![CDATA[Given I open buyrentbd website for Lily.....................................passed
+And I click on number two links.............................................passed
+When I click on Lily flat...................................................passed
+And I click on next buttons for Lily........................................passed
+And verift the text on the page Lily........................................passed
+Then I close browser for Lily...............................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Test BDDL Sufia feature" name="Test BDDL Sufia scenario" time="9.419">
+        <system-out><![CDATA[Given I open buyrentbd website for Sufia....................................passed
+And I click on number two...................................................passed
+When I click on Sufia flat..................................................passed
+And I click on next buttons for Sufia.......................................passed
+And verift the text on the page Sufia.......................................passed
+Then I close browser for Sufia..............................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Test Banani Lake feature" name="Test Banani Lake scenario" time="8.189">
+        <system-out><![CDATA[Given I open buyrentbd websites1............................................passed
+When I click on Banani Lake flat............................................passed
+And I click on next button1.................................................passed
+And verift the text on it1..................................................passed
+Then I close1...............................................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Test Banani flats feature" name="Test Banani flats scenariof" time="5.97">
+        <system-out><![CDATA[Given I open buyrentbd websitef.............................................passed
+When I click on Banani flatf................................................passed
+And I click on nextf........................................................passed
+And verift the textf........................................................passed
+Then I close websitef.......................................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Test Dreamway feature" name="Test Dreamway apartment scenario" time="6.965">
+        <system-out><![CDATA[Given I open buyrentbd website for Dreamway.................................passed
+And I click on number two links for Dreamway................................passed
+When I click on Dreamway flat...............................................passed
+And I click on next buttons for Dreamway....................................passed
+And verift the text on the page Dreamway....................................passed
+Then I close browser for Dreamway...........................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Test BDDL Gold Place feature" name="Test BDDL Gold Place scenario" time="6.699">
+        <system-out><![CDATA[Given I open buyrentbd website for test.....................................passed
+When I click on BDDL Gold flat..............................................passed
+And I click on the next.....................................................passed
+And verift text.............................................................passed
+Then I close it.............................................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Title Jonota housing feature" name="Title of your scenario" time="6.083">
+        <system-out><![CDATA[Given I open buyrentbd websites.............................................passed
+When I click on jonota housing flat.........................................passed
+And I click on next button..................................................passed
+And verift the text on it...................................................passed
+Then I close................................................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Test Rossela feature" name="Test Rossela apartment scenario1" time="6.599">
+        <system-out><![CDATA[Given I open buyrentbd website for Rosselas.................................passed
+And I click on number two linkse............................................passed
+When I click on Rossela flate...............................................passed
+And I click on next buttons for Rosselae....................................passed
+And verift the text on the page Rosselae....................................passed
+Then I close browser for Rosselae...........................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Test Swan Dilara feature" name="Test Swan Dilara scenario" time="6.361">
+        <system-out><![CDATA[Given I open buyrentbd website for Swan Dilara..............................passed
+And I click on two links for Swan Dilara....................................passed
+When I click on Swan Dilara flat............................................passed
+And I click on next buttons for Swan Dilara.................................passed
+And verift the text on the page Swan Dilara.................................passed
+Then I close browser for Swan Dilara........................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Test Swan Rajia feature" name="Test Swan Rajia scenario" time="6.567">
+        <system-out><![CDATA[Given I open buyrentbd website for Swan Rajia...............................passed
+And I click on number two link for Swan Rajia...............................passed
+When I click on Swan Rajia flat.............................................passed
+And I click on next buttons for Swan Rajia..................................passed
+And verift the text on the page Swan Rajia..................................passed
+Then I close browser for Swan Rajia.........................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Test call you feature" name="Test Let Us Call you scenario" time="5.566">
+        <system-out><![CDATA[Given I open buyrentbd website..............................................passed
+When I enter name on let us call you form...................................passed
+And email...................................................................passed
+And phone number............................................................passed
+Then I enter message........................................................passed
+And close the browser.......................................................passed
+]]></system-out>
+    </testcase>
+</testsuite>
